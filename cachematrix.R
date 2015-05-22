@@ -19,9 +19,9 @@ makeCacheMatrix <- function(x = matrix()) {
   get <- function(){x}                             #F2. Returns function list
   setinverse <-function(solve) inverse<<-solve     #F3. Calculates/stores inverse of X in 'inverse'
   getinverse <- function() inverse                 #F4. Retrieves value of 'inverse'     
-  list(set = set,get = get,                        #Labels and stores functions in list
+  list(set = set, get = get,                        #Labels and stores functions in list
        setinverse = setinverse,
-       getinverse =getinverse)
+       getinverse = getinverse)
 }
 
 
